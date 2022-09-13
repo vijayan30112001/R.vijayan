@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Responsive Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .menu{
+            float:left;
+            width:20%;
+            text-align:center;
+        }
+        .menu a{
+            background-color:cadetblue;
+            padding:10px;
+            margin-top:8px;
+            display:inline-block;
+            width:100%;
+            color:black;
+        }
+        .right{
+            background-color:#4f6a8c;
+            float:right;
+            width:auto;
+            padding:15px;
+            margin-top:7px;
+            text-align:center;
+        }
+        .main{
+            float:left;
+            width:60%;
+            padding:0 20px;
+        }
+        @media only screen and (max-width:700px){
+            .menu, .main, .right{
+                width:auto
+            }
+        }
+    </style>
+    </head>
+    <body style="font-family:Verdana; color:#aaaaaa;">
+        <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+            <h1>welcome to our site</h1>
+        </div>
+        <div style="overflow:auto">
+            <div class="menu">
+                <a href="https://www.nokia.com/">Link-1</a>
+                <a href="https://www.realme.com/in/">Link-2</a>
+                <a href="https://www.mi.com/in/">Link-3</a>
+                <a href="https://www.motorola.com/us/">Link-4</a> 
+                <a href="https://www.apple.com/in/">Link-5</a>
+            
+            </div>
+            <br>
+            <div class="main">
+                <h2>mobile phones</h2>
+                <p>
+                   mobile is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.
+                </p>
+            </div>
+            <br>
+            <div class="right">
+                <h2>About</h2>
+                <p>popular mobile brands in India  </p>
+            </div>
+        </div>
+        <div style="background-color: #745238;text-align: center;padding: 10px;margin-top: 7px;">©vijayan. All rights reserved.</div>
+    </body>
+</html>
